@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T07:46:35.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="TVXXglYCQo7eW16VJHNT" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T07:49:19.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="yhOYu-2vSXMhSPoyxcIZ" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
           <mxGeometry x="-441.5" y="970" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-8" value="&lt;h1&gt;Jwt Authentication&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-338.25" y="680" width="223.5" height="40" as="geometry" />
+          <mxGeometry x="-555.25" y="680" width="223.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-9" target="ssqs3UzeB_QH6sZrgzqs-7">
           <mxGeometry relative="1" as="geometry" />
