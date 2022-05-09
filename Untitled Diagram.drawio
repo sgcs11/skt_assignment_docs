@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:10:34.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="wN-2_f55qrEOkPAZIwYN" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:26:38.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ZPhGyRtJ7BFoZ-wFCaqa" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,6 +420,9 @@
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-136" value="최신 피드 통합 API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-790.25" y="1620" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-138" value="&lt;h1&gt;Redis PubSub&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-567.63" y="1870" width="235.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
