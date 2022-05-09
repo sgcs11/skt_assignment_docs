@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T07:00:15.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="bPLwg1MaLXUeVBCkOLPD" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T07:04:39.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="L2-vYuXjlA3QBvCQBLqh" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,11 +228,13 @@
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-44" value="DispatcherServlet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="38" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ssqs3UzeB_QH6sZrgzqs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-49" target="ssqs3UzeB_QH6sZrgzqs-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-70" value="2. Oauth 로그인 성공 시 jwt token을 만들어서 제공" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-49" target="ssqs3UzeB_QH6sZrgzqs-44">
+          <mxGeometry x="-0.05" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-49" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="238" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-470.75" y="1140" width="154.5" height="140" as="geometry" />
