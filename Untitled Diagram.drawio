@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:00:45.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="pFQzU2fLpQshc7lX6Fjo" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:09:07.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="D9o3jbzpI4wACihg6cWS" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-128" target="ssqs3UzeB_QH6sZrgzqs-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-521.5" y="950" width="470" height="100" as="geometry" />
         </mxCell>
@@ -334,7 +337,7 @@
           <mxGeometry x="-555.25" y="1330" width="235.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-106" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-188" y="1380" width="120" height="60" as="geometry" />
+          <mxGeometry x="-188" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-117" value="4. 이미지 URL 생성하여 저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-107" target="ssqs3UzeB_QH6sZrgzqs-106">
           <mxGeometry relative="1" as="geometry" />
@@ -347,23 +350,29 @@
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-122" value="5. 이미지 URL을 DB에 저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-107" target="ssqs3UzeB_QH6sZrgzqs-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-360" y="1410" />
-              <mxPoint x="-360" y="1460" />
-              <mxPoint x="-190" y="1460" />
+              <mxPoint x="-360" y="1440" />
+              <mxPoint x="-360" y="1490" />
+              <mxPoint x="-190" y="1490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ssqs3UzeB_QH6sZrgzqs-107" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-486" y="1380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ssqs3UzeB_QH6sZrgzqs-116" value="1. Client 요청" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-108" target="ssqs3UzeB_QH6sZrgzqs-107">
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-137" value="6. 이미지 URL 포함한 Json&lt;br&gt;응답" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-107" target="ssqs3UzeB_QH6sZrgzqs-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-107" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-486" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-116" value="1. Client 요청" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-677" y="1427" as="sourcePoint" />
+            <mxPoint x="-486" y="1427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-108" value="Client&lt;br&gt;(browser)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-797" y="1380" width="120" height="60" as="geometry" />
+          <mxGeometry x="-797" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-113" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="1490" width="120" height="60" as="geometry" />
+          <mxGeometry x="-250" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-120" value="3. SNS 피드 응답" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-118" target="ssqs3UzeB_QH6sZrgzqs-107">
           <mxGeometry x="-0.3333" relative="1" as="geometry">
@@ -371,7 +380,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-118" value="SNS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-486" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="-486" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-126" value="1. Client 요청" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-123" target="ssqs3UzeB_QH6sZrgzqs-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-677" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-123" target="ssqs3UzeB_QH6sZrgzqs-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-123" value="Client&lt;br&gt;(browser)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-797" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-129" value="2. DB에서 이미지 URL을 가져옴" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-124" target="ssqs3UzeB_QH6sZrgzqs-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-132" value="3. 이미지 URL 포함한 Html &lt;br&gt;응답" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-124" target="ssqs3UzeB_QH6sZrgzqs-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-124" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-486" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-134" value="4. 이미지 URL로 이미지 접근하여 화면에 렌더링" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-125" target="ssqs3UzeB_QH6sZrgzqs-123">
+          <mxGeometry x="-0.2" y="-47" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-125" value="AWS S3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-797" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-128" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-135" value="풀링 시" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-790.25" y="1370" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-136" value="화면 요청 시" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-790.25" y="1620" width="106.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
