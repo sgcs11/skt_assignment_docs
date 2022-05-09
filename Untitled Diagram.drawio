@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T06:25:22.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Es2vUI9byl9Q0eQ6hKd9" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T06:56:50.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="tBXTnLJUortZ-mvZGiR8" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-641" y="770" width="468" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ssqs3UzeB_QH6sZrgzqs-64" value="doFilter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-7" target="ssqs3UzeB_QH6sZrgzqs-61">
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-64" value="1. doFilter를 호출하여 request header에 유효한 jwt 토큰이 있으면 SecurityContext에 set한다." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-7" target="ssqs3UzeB_QH6sZrgzqs-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="josuYRWAuAv7qahsjw2j-20" value="2. Client Server가 authorization-uri로 redirect하라는 응답을 줌" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -219,8 +219,17 @@
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-44" target="ssqs3UzeB_QH6sZrgzqs-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-44" target="ssqs3UzeB_QH6sZrgzqs-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-44" target="ssqs3UzeB_QH6sZrgzqs-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-44" value="DispatcherServlet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-90" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssqs3UzeB_QH6sZrgzqs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="ssqs3UzeB_QH6sZrgzqs-49" target="ssqs3UzeB_QH6sZrgzqs-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssqs3UzeB_QH6sZrgzqs-49" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="110" y="790" width="120" height="60" as="geometry" />
