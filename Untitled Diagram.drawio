@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:16:50.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="BZi8jgOTKPSv1J5OfWc_" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:17:09.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="-FTFMqadmqFh67zE0KCe" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -605,6 +605,9 @@
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-65" value="subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="44.75" y="2630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-71" value="&lt;h1&gt;Redis pubsub&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-507.81" y="2420" width="167.81" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
