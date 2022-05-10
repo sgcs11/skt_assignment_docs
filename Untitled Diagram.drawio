@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:37:46.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="mthDn426qJEwgYPeqyRT" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:40:35.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="4M6uttlNIISfugDKTMu5" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,11 +463,23 @@
         <mxCell id="wriyt_EVrtWsCPArltfx-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-247.11" y="2030" width="191.12" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-14" target="wriyt_EVrtWsCPArltfx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-14" target="wriyt_EVrtWsCPArltfx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-14" value="partition0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-236.54999999999995" y="2060" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-15" value="Topic0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-182.99" y="2030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-16" target="wriyt_EVrtWsCPArltfx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-16" target="wriyt_EVrtWsCPArltfx-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-16" value="partitionN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-236.54999999999995" y="2110" width="170" height="40" as="geometry" />
@@ -508,9 +520,9 @@
         <mxCell id="wriyt_EVrtWsCPArltfx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-40" value="1. 각 Topic에 대해 hashing을 통해 어느 partition에 저정할지 결정하여 저장한다." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-10">
-          <mxGeometry x="-0.5278" y="210" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="wriyt_EVrtWsCPArltfx-40" value="1. key가 있는 레코드들은 파티셔너에서 hashing되어 어느 partition에 저정할지 결정된다." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-10">
+          <mxGeometry x="-0.4558" y="210" relative="1" as="geometry">
+            <mxPoint x="-199" y="-210" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-27" value="producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -539,6 +551,9 @@
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-45" value="queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-50" value="2. 각 data들은 queue에 순차적으로 저장된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1970" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
