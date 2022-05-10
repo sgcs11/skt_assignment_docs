@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:19:06.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="YflQlxIRymTdW51GisO6" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:20:08.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6-0yAHEQW3IqC_INhTt4" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -594,7 +594,7 @@
         <mxCell id="wriyt_EVrtWsCPArltfx-69" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2.구독한 subscriber들이 자원을 읽어옴&lt;br&gt;(stream)&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-62" target="wriyt_EVrtWsCPArltfx-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-62" value="message broker&lt;br&gt;(redis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wriyt_EVrtWsCPArltfx-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-457.25" y="2470" width="184" height="220" as="geometry" />
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-63" value="subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -608,6 +608,15 @@
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-71" value="&lt;h1&gt;Redis pubsub&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-507.81" y="2420" width="167.81" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-72" value="message broker&lt;br&gt;(redis)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-420.25" y="2470" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-73" value="channel1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-425.25" y="2510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-74" value="channelN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-425.25" y="2610" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
