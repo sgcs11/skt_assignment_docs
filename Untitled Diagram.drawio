@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:42:13.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JtWmkpMIR_79ww7dB3Z5" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:50:41.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="rnXg2fS_zK4sb9Nmgedy" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -528,17 +528,14 @@
         <mxCell id="wriyt_EVrtWsCPArltfx-27" value="producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-797" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-28" value="subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wriyt_EVrtWsCPArltfx-28" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="2120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-29" value="subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wriyt_EVrtWsCPArltfx-29" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="2205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-30" value="subscriber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wriyt_EVrtWsCPArltfx-30" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="2030" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-32" value="redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-341.5" y="1940" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-42" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1920" width="80" height="40" as="geometry" />
@@ -554,6 +551,12 @@
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-50" value="2. 각 data들은 queue에 순차적으로 저장된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="15" y="1970" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-51" value="3. consumer가&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38" y="2290" width="332" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wriyt_EVrtWsCPArltfx-52" value="kafka cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-357.25" y="1940" width="91.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
