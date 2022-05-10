@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:40:35.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="4M6uttlNIISfugDKTMu5" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:41:25.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9cgXtD5y6STreATE9AoW" version="18.0.2" type="github">
   <diagram id="0olNeXQWjINQZvu6lN0X" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -520,9 +520,9 @@
         <mxCell id="wriyt_EVrtWsCPArltfx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wriyt_EVrtWsCPArltfx-40" value="1. key가 있는 레코드들은 파티셔너에서 hashing되어 어느 partition에 저정할지 결정된다." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-10">
-          <mxGeometry x="-0.4558" y="210" relative="1" as="geometry">
-            <mxPoint x="-199" y="-210" as="offset" />
+        <mxCell id="wriyt_EVrtWsCPArltfx-40" value="1. key가 있는 레코드들은 파티셔너에서 hashing되어 topic의 어느 partition에 저정할지 결정된다.&lt;br&gt;key가 없는 레코드들은 라운드로빈 방식으로 저장된다." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wriyt_EVrtWsCPArltfx-27" target="wriyt_EVrtWsCPArltfx-10">
+          <mxGeometry x="-0.4558" y="212" relative="1" as="geometry">
+            <mxPoint x="-181" y="-210" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wriyt_EVrtWsCPArltfx-27" value="producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
